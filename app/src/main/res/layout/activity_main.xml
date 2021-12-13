@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+
+        <EditText
+            android:id="@+id/etx"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="type"></EditText>
+
+    <Button
+        android:id="@+id/b_call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call"></Button>
+
+    <Button
+        android:id="@+id/b_camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Camera"
+        ></Button>
+
+    <Button
+        android:id="@+id/b_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact"></Button>
+
+    <Button
+        android:id="@+id/b_browser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Browser"></Button>
+
+    <Button
+        android:id="@+id/b_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gallery"></Button>
+
+    <Button
+        android:id="@+id/b_dialpad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dialpad"></Button>
+
+    <Button
+        android:id="@+id/b_assignment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Assignment"
+        ></Button>
+    </LinearLayout>
+
+
